@@ -1,0 +1,97 @@
+{
+  "id": "pf2e-divinity-unbound",
+  "title": "Divinity Unbound: Paths of Faith",
+  "description": "<a href='https://www.eldritchosirisgames.com/'>Eldritch Osiris Games</a>",
+  "authors": [
+    {
+      "name": "Nick Potter"
+    },
+    {
+      "name": "James Beck",
+      "discord": "osirisbatman"
+    },
+    {
+      "name": "Dylan Wokeck",
+      "discord": "novelenigma"
+    },
+    {
+      "name": "Luigi Lizza",
+      "discord": "luigilizza"
+    },
+    {
+      "name": "Braden Menke",
+      "discord": "delioth"
+    },
+    {
+      "name": "Shawn Pommier",
+      "discord": "eldritchdream"
+    },
+    {
+      "name": "Shaman's Stockart"
+    },
+    {
+      "name": "Gusna",
+      "url": "https://twitter.com/Gusag12"
+    },
+    {
+      "name": "Sam Marine",
+      "discord": "lebombjames1"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.3.4",
+          "verified": "4.9.3"
+        }
+      }
+    ],
+  }
+   "packs": [
+    {
+      "label": "Divinity Unbound Feats",
+      "name": "divinity-unbound-feats",
+      "path": "./packs/divinity-unbound-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-divinity-unbound",
+      "private": false,
+      "type": "Item"
+    },
+    {
+      "label": "Divinity Unbound Effects",
+      "name": "divinity-unbound-effects",
+      "path": "./packs/divinity-unbound-effects.db",
+      "system": "pf2e",
+      "package": "pf2e-divinity-unbound",
+      "private": false,
+      "type": "Item"
+    },
+    {
+      "label": "Divinity Unbound NPCs",
+      "name": "divinity-unbound-npcs",
+      "path": "./packs/divinity-unbound-npcs.db",
+      "system": "pf2e",
+      "package": "pf2e-divinity-unbound",
+      "private": false,
+      "type": "Actor"
+    },
+    {
+      "label": "Divinity Unbound Journals",
+      "name": "divinity-unbound-journals",
+      "path": "./packs/divinity-unbound-journals.db",
+      "system": "pf2e",
+      "package": "pf2e-divinity-unbound",
+      "private": false,
+      "type": "JournalEntry"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "manifest": ""
+}
